@@ -1,0 +1,151 @@
+
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Work+Sans:wght@300;400;700&display=swap');
+
+/* layout */
+
+body {
+  font-size: 1em;
+  font-weight: 400;
+  background-color: #F7F3F2;
+  color: #52555f;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #99A799;
+  font-size: 1.875em;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ADC2A9;
+  font-size: 1.25em;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+/* pictures */
+
+.img-circle {
+  width: 8.5em;
+  height: 8.5em;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border:0.1875em solid #F7F3F2;
+  padding: 0.5625em;
+  background-color: #F7F3F2;
+}
+
+/* links */
+
+a {
+  text-decoration: none;
+}
+
+.btn-gray {
+  color:#666d64;
+  background-color: #d4dad1;
+  border: none;
+  border-radius: 0.3125em;
+  box-shadow: 0.125em 0.125em 0.125em  #96959556;
+  padding: 0.625em 0.9375em;
+  inline-size: 6.25em;
+  font-weight: 700;
+  transition-duration: 0.2s;
+}
+
+.btn-gray:hover {
+  color: #4b504a;
+  background-color: #a2aca0;
+  box-shadow: 0.25em 0.25em 0.25em #3a363656;
+  cursor: pointer;
+}
+
+.btn-gray:active {
+  color: #393d39;
+  box-shadow: inset 0.21875em 0.375em 0.5em #222;
+  transform: translateY(0.0625em);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 0.9375em;
+  margin: 0 0.25em;
+  color: rgb(150, 144, 144);
+}
+
+.social-icon:hover {
+  background-color: #5b6e6e
+}
+
+/* Containers */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  margin-top: 0.9375em;
+  padding: 1.25em;
+  border-radius: 0.25em;
+  box-shadow: 0.125em 0.125em 0.125em rgba(163, 163, 163, 0.1);
+}
+
+.container p {
+  padding: 1.25em 1.25em 0.3125em 1.25em;
+  margin-bottom: 1.875em;
+  margin-top: 1.875em;
+}
+
+.container-img-circle {
+  padding: 2.6em 1.25em 2.5em 1.25em;
+  margin-top: 1.875em;
+  margin-bottom: 1.875em;
+}
+
+.container-image {
+  margin: 35 auto 10;
+  padding: 2px;
+}
+
+.container-top {
+  padding-bottom: 3.125em;
+}
+
+/* responsive */
+@media (min-width: 740px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 740px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
