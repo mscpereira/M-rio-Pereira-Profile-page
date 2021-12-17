@@ -29,6 +29,12 @@ p {
 
 }
 
+#batch {
+  background-color:#99a799;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
+}
+
 /* pictures */
 
 .img-circle {
@@ -92,7 +98,7 @@ a {
 }
 
 .social-icon:hover {
-  background-color: #5b6e6e
+  font-weight: 600;
 }
 
 /* Containers */
